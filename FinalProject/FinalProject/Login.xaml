@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalProject.Login">
+
+  <Frame OutlineColor="Accent">
+    <StackLayout Spacing="0"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center">
+        
+        <Label Text="UserName:" FontSize="Large" />
+        
+      
+        <Label Text="Password:" FontSize="Large" />
+        
+    
+        <Button x:Name="iForget" Text="Forget username and password"
+                Clicked="btnForget" />
+        
+        <Button x:Name="iLogin" Text="Login"
+                Clicked="btnLogin" />
+        
+    </StackLayout>
+  </Frame>
+
+</ContentPage>

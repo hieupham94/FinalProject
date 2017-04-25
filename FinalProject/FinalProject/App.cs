@@ -11,10 +11,7 @@ namespace FinalProject
     {
         public App()
         {
-            // The root page of your application
-            var content = new ContentPage();
-
-            MainPage = new NavigationPage(content);
+            MainPage = new Login();
         }
 
         protected override void OnStart()
